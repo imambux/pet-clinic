@@ -1,4 +1,4 @@
-package model;
+package com.imambux.petclinic.model;
 
 public class PetType {
 

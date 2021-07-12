@@ -1,4 +1,4 @@
-package model;
+package com.imambux.petclinic.model;
 
 import java.time.LocalDate;
 
