@@ -2,10 +2,11 @@ package com.imambux.petclinic.map;
 
 import com.imambux.petclinic.model.Pet;
 import com.imambux.petclinic.service.CrudService;
+import com.imambux.petclinic.service.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
     public Set<Pet> findAll() {
