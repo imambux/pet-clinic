@@ -3,9 +3,11 @@ package com.imambux.petclinic.map;
 import com.imambux.petclinic.model.Pet;
 import com.imambux.petclinic.service.CrudService;
 import com.imambux.petclinic.service.PetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
 
     @Override
